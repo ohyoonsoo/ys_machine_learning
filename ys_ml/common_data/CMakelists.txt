@@ -1,0 +1,1 @@
+add_library(common_data common_data.hpp common_data.cpp)

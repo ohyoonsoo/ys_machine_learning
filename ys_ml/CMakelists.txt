@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
+project(ys_ml LANGUAGES CXX)
+add_subdirectory(data_handler)
+add_subdirectory(exception)
+add_executable(DataTest dataTest.cpp)
+target_link_libraries(DataTest data ysException)

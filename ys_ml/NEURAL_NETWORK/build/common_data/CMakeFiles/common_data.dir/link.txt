@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libcommon_data.a CMakeFiles/common_data.dir/common_data.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libcommon_data.a

@@ -1,0 +1,2 @@
+add_library(ysException ysException.hpp ysException.cpp)
+message("ysException library is successfully created.")
